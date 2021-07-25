@@ -1,0 +1,4 @@
+docker build -t  dnutransferenciaserver .
+
+docker run -d -p 44414:12000 -it --rm --name transfeserver dnutransferenciaserver
+

@@ -1,0 +1,5 @@
+docker build -t  dnutransferenciaclient .
+
+docker run -d -p 44415:7000 -it --rm --name transfeclient dnutransferenciaclient
+
+python client.py
